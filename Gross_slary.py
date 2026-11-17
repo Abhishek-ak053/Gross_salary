@@ -1,4 +1,3 @@
-# Calculate gross salary
 def calculate_salary():
     basic_salary = 50000
     hra = basic_salary * 20 / 100
@@ -7,6 +6,7 @@ def calculate_salary():
     gross_salary = basic_salary + hra + da
 
     print("Gross Salary:", gross_salary)
+    return gross_salary
 
 
 if __name__ == "__main__":
